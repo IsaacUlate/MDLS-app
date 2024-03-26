@@ -16,7 +16,7 @@
         </style>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <h1>Suscribete</h1>
+        <h1>Perfil</h1>
         <a href="/">Inicio</a>
         <a href="/perfil">Perfil</a>
         <a href="/foro">Foro</a>
