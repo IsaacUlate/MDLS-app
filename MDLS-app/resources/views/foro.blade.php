@@ -5,18 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+        @vite('resources/css/app.css')
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-        <!-- Styles -->
-        <style>
-
-        </style>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <h1>Foro</h1>
+        <h1 class="text-4xl">Foro</h1>
         <a href="/">Inicio</a>
         <a href="/perfil">Perfil</a>
         <a href="/foro">Foro</a>
