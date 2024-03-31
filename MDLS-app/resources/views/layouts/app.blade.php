@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('titulo')</title>
+        <title>@yield('title')</title>
         @vite('resources/css/app.css')
 
     </head>
@@ -19,21 +19,21 @@
                     <a class="font-bold uppercase text-gray-600
                     text-sm" href="#">Login</a>
                     <a class="font-bold uppercase text-gray-600
-                    text-sm" href="#">Crear cuenta</a>
+                    text-sm" href="/create-account">Create Account</a>
                 </nav>
             </div>
         </header>
 
         <main class="container mx-auto mt-10">
             <h2 class="font-black text-center text-3xl mb-10">
-                @yield('titulo')
+                @yield('title')
             </h2>
-            @yield('contenido')
+            @yield('content')
         </main>
 
         <footer class="text-center p-5 text-gray-500 font-bold
         uppercase">
-            MDLS - Todos los derechos reservados @php echo date
+            MDLS - Copyright Reserved @php echo date
             ('Y') @endphp
         </footer>
 
